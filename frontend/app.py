@@ -55,6 +55,9 @@ if submitted:
                         "message": message,
                         "source": "Demo Form",
                     },
+                    headers={
+        "x-webhook-secret": os.getenv("WEBHOOK_SECRET", "")
+    },
                     timeout=30,
                 )
                 response.raise_for_status()

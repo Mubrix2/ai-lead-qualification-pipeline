@@ -3,6 +3,8 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
+API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
+WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET", "")
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")
 
