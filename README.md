@@ -6,8 +6,15 @@ scores them with AI, saves to a CRM, and alerts the sales team on
 Slack — all within seconds of a form submission, with zero manual 
 intervention.
 
-**Live Demo:** [your-app.streamlit.app](https://your-app.streamlit.app)  
-**API Docs:** [your-api.onrender.com/docs](https://your-api.onrender.com/docs)
+**Live Demo:** [your-app.streamlit.app](https://ai-lead-qualification-pipeline-uo7yfmrrkbyxvnaq9tcqpc.streamlit.app)  
+**API Docs:** [your-api.onrender.com/docs](https://ai-lead-qualification-pipeline.onrender.com/docs)
+
+---
+
+## Demo
+
+![Demo](demo.gif)
+
 
 ---
 
